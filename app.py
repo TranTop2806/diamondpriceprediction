@@ -30,7 +30,7 @@ def predict(carat, cut, color, clarity, depth, table, x, y, z, x_mean, x_std, th
 # st.snow()
 
 #Add title for my app
-st.title('💎DIAMOND PRICE PREDICTION 💎')
+st.title('💎DIAMOND PRICE PREDICTION💎')
 
 st.header('Vui lòng nhập các đặc trưng của viên kim cương bạn muốn mua:')
 carat = st.number_input('Carat Weight:', min_value=0.1, max_value=10.0, value=1.0)
